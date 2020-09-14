@@ -37,7 +37,6 @@ option broadcast-address 192.168.0.255;
 default-lease-time 600;
 
 max-lease-time 7200;
-
 }
 9.Once these values are configured we will proceed to restart the isc-dhcp-server service using the following command:
 sudo systemctl restart isc-dhcp-server
